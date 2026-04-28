@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FTP Setup</title>
     <style>
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
         body {
             background-image: url('images/peace.jpg'); /* Correct syntax for background image */
             background-size: cover; /* Make the image cover the entire page */
             background-repeat: no-repeat; /* Prevent the image from repeating */
             background-position: center; /* Center the image */
+            background-attachment: fixed; /* Keep image fixed when scrolling */
             margin: 0; /* Remove default body margin */
-            height: 100vh; /* Ensure the body takes up the full viewport height */
+            padding: 0; /* Remove default body padding */
+            min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
             color:rgb(247, 246, 246);
             font-size: 16px;
         }
